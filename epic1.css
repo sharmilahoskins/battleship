@@ -1,0 +1,58 @@
+td{
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+#board {
+  border-collapse: collapse;
+  margin: 40px auto;
+  background-color: #ccd9ff
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.torpedoed {
+  background-color: #0040ff
+}
+
+.hit, #red {
+  background-color: #cc0000
+}
+
+#blue {
+  width: 30px;
+  height: 30px;
+  background-color: #0040ff;
+  color: white;
+}
+
+#red {
+  width: 30px;
+  height: 30px;
+  background-color: #cc0000;
+  color: white;
+}
+
+#torpedoTracker, #hitTracker {
+  font-size: 2em;
+}
+
+#legend {
+  font-size: 2em;
+}
+
+#winLose {
+  text-align: center;
+  color: #cc0000;
+}
+
+.showShip {
+  background-color: gray;
+  background-image: url("ship.png");
+  /*z-index: 2*/
+  background-size: contain;
+}
