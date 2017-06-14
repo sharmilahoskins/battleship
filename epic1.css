@@ -6,7 +6,7 @@ td{
 
 #board {
   border-collapse: collapse;
-  margin: 40px auto;
+  margin: 70px auto 30px auto;
   background-color: #ccd9ff
 
 }
@@ -55,4 +55,8 @@ h1 {
   background-image: url("ship.png");
   /*z-index: 2*/
   background-size: contain;
+}
+
+.btn {
+  margin: auto;
 }
